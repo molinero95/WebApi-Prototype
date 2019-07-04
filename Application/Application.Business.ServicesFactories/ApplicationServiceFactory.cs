@@ -1,9 +1,8 @@
 ﻿using Application.Business.Services.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using Application.Business.Services;
 
-namespace Application.Business.Factories
+
+namespace Application.Business.ServiceFactories
 {
     public abstract class ApplicationServiceFactory
     {
@@ -17,7 +16,7 @@ namespace Application.Business.Factories
         }
 
 
-        public abstract IApplicationService GetApplicationService(ApplicationServices service); 
+        public abstract IApplicationService GetApplicationService(ApplicationBusinessServices service); 
 
     }
 }

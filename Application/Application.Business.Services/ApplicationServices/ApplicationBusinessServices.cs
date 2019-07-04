@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Application.Business.Factories
+namespace Application.Business.Services
 {
-    public enum ApplicationServices
+    public enum ApplicationBusinessServices
     {
         ContainerService,
         ArticlesService,

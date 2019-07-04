@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Application.Business.Services.Interfaces
+namespace Application.Data.Services
 {
-    public interface IService
+    public interface IDataService
     {
     }
 }
