@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Data.Services",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Data.ServicesFactories", "Application.Data.ServicesFactories\Application.Data.ServicesFactories.csproj", "{8DE3D023-F285-405B-A5F5-62603775FD10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Data.TransactionManager", "Application.Data.TransactionManager\Application.Data.TransactionManager.csproj", "{6667F323-4548-4632-9260-6718DFC8B160}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Data.Transactions", "Application.Data.TransactionManager\Application.Data.Transactions.csproj", "{6667F323-4548-4632-9260-6718DFC8B160}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

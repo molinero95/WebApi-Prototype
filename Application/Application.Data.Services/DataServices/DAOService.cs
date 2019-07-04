@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Application.Data.DAOs;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -8,10 +9,7 @@ namespace Application.Data.Services
     {
 
         private static DAOService _instance { get; set; }
-        protected DAOService()
-        {
-
-        }
+        protected DAOService() { }
 
         public static DAOService GetInstance()
         {
@@ -19,6 +17,8 @@ namespace Application.Data.Services
                 _instance = new DAOServiceImp();
             return _instance;
         }
+
+        public abstract IDAO GetDAO(ApplicationDAOs applicationDAO);
         
     }
 }

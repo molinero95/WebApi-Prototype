@@ -3,7 +3,7 @@ using System.Collections.Concurrent;
 using System.Data.SqlClient;
 using System.Threading;
 
-namespace Application.Data.TransactionManager
+namespace Application.Data.Transactions
 {
     public class TransactionManager: IDisposable
     {

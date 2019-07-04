@@ -8,7 +8,7 @@ using System.Linq;
 
 namespace Application.Data.DAOs
 {
-    public class ContainerDAO
+    public class ContainerDAO: IDAO
     {
         public ContainerDAO() { }
 
